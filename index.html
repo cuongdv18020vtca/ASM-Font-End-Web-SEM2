@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-expand-md navbar-light  bg-white" id="top">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon ">
+
+                </span>
+            </button>
+            <img src="image/67585712_2329710503911876_8164072246546006016_n.png" alt="logo" id="logo">
+            <div class="temp">
+                <img src="image/Gear-01-WF.png" sizes="30" alt="setting" width="30" id="setting">
+                <button class="btn btn-primary" id="logged">Đăng nhập</button>
+            </div>
+            <div id="navbarResponsive" class="collapse navbar-collapse">
+                <nav class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="navlink" href="#">Đặt chuyến bay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navlink" href="#">Quản lý chuyến bay của tôi</a>
+                    </li>
+                </nav>
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="container-fluid" id="content1">
+        <div class="container">
+            <nav id="p27">
+                <ul class="wrap__nav">
+                    <li class="nav__item p26">
+                        <a href="" class="nav__link first">
+                            <span class="nav__icon p28"></span>
+                            <p class="nav__link-text">
+                                <span class="nav__link-title">HAN <img
+                                        src="./67982381_347691476135340_6977609529848496128_n.png" alt="" width="15px"
+                                        height="auto"> CDG</span>
+                                <span class="nav__link-subtitle">Chọn chuyến bay</span>
+                            </p>
+                        </a>
+                        <a href="" class="nav__link">
+                            <span class="nav__icon p27"></span>
+                            <p class="nav__link-text">
+                                <span class="nav__link-title">Thông tin khách</span>
+                                <span class="nav__link-subtitle">1 Hành khách</span>
+                            </p>
+                        </a>
+                        <a href="" class="nav__link">
+                            <span class="nav__icon p31"></span>
+
+                            <p class="nav__link-text">
+                                <span class="nav__link-title">Dịch vụ bổ trợ</span>
+                                <span class="nav__link-subtitle"></span>
+                            </p>
+                        </a>
+                        <a href="" class="nav__link">
+                            <span class="nav__icon p29"></span>
+                            <p class="nav__link-text">
+                                <span class="nav__link-title">Chọn chỗ ngồi</span>
+                                <span class="nav__link-subtitle"></span>
+                            </p>
+                        </a>
+                        <a href="" class="nav__link  bg-yellow">
+                            <span class="nav__icon p30"></span>
+                            <p class="nav__link-text">
+                                <span class="nav__link-title">Thanh toán</span>
+                                <span class="nav__link-subtitle"></span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <div class="select-button-hidden">
+
+        <div class="grid">
+
+            <div class="left-top-control">
+                <button class="btn-Control-left " type="button" data-toggle="collapse" data-target="#ggg"
+                    aria-expanded="false" aria-controls="#ggg">
+
+                    <div class="container">
+                        <p class="nav__link-text">
+                            <span class="nav__link-title">
+                                <br>
+                                <span><img src="./thanh toán.png" alt="airpland" width="30px" height="auto"></span>
+
+                                <span class="nav__link-subtitle" style="margin-left: 35px">Thanh toán</span>
+                            </span>
+                        </p>
+                    </div>
+                </button>
+                <ul class="dropdown-menu scrollable-menu" id="ggg" role="menu">
+                    <li class="btn-home" style="background: transparent"><a href="#">
+                            <img src="./home-1.png" width="30px" alt="home">
+                            <span>Trang chủ</span>
+                        </a></li>
+                    <li class="btn-dropdown">
+                        <span> <img src="./chuyến bay.png" width="30px" alt="home"> </span>
+                        <a href="#">HAN <span><img src="image/double-arrow.png" alt="double-arrow"
+                                    width="20">CDG</span></a></li>
+                    <li class="btn-dropdown">
+                        <span> <img src="./thonong tin hành khách.png" width="30px" alt="home"> </span>
+                        <a href="#">Thông tin khách </a></li>
+                    <li class="btn-dropdown">
+                        <span> <img src="./dịch vụ bổ trợ.png" width="30px" alt="home"> </span>
+                        <a href="#">Dịch vụ bổ trợ</a></li>
+                    <li class="btn-dropdown">
+                        <span> <img src="./chỗ ngồi.png" width="30px" alt="home"> </span>
+                        <a href="#">Chọn chỗ ngồi</a></li>
+                    <li class="btn-dropdown">
+                        <span> <img src="./thanh toán.png" width="30px" alt="home"> </span>
+                        <a href="#">Thanh toán</a></li>
+
+                </ul>
+            </div>
+            <button class="btn-Control-right" type="button" data-toggle="collapse" data-target="#card-price-detail"
+                aria-expanded="false" aria-controls="#card-price-detail">
+                <span class="nav__icon"></span>
+                <p class="nav__link-text">
+                    <span>63,471,000 VND</span>
+                </p>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid" id="content">
+
+        <div class="container">
+            <br>
+
+            <br>
+            <div class="card-body bg-white note">
+                <div class="container">
+                    <div class="content-head1">
+                        <p id="title1">
+                            Lưu ý :
+                            Vietnam Airlines đặt trụ sở tại Việt Nam. Tùy theo chính sách của mình, ngân hàng phát
+                            hành
+                            thẻ
+                            có thể thu phí trên mỗi giao dịch của Quý khách. Vietnam Airlines
+                            tuyệt đối không chịu trách nhiệm khi phát sinh bất kỳ khoản phí nào liên quan đến việc
+                            sử
+                            dụng
+                            thẻ để thanh toán tại website của Vietnam Airlines. Quý khách nên
+                            trực tiếp liên hệ với ngân hàng phát hành thẻ để có đầy đủ thông tin về chi phí phát
+                            sinh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+
+                    <div class="title-wrapper">
+                        <h2 class="title">
+                            <span> Thanh toán</span>
+                        </h2>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            Chọn hình thức thanh toán 63,472,000 VND
+                            <p class="p3">Quý khách lựa chọn hình thức thanh toán dưới đây</p>
+                        </div>
+                        <div class="card-body p4">
+
+                            <!-- <div class="background"> -->
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                                <li class="nav-item ">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">
+
+                                        <img src="./visa-classic-card-800x450.jpg" alt="check" width="43.06px"
+                                            height="auto " id="p6">
+                                        <b id="p5">Thẻ thanh toán quốc tế</b>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="navas-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">
+                                        <img src="./smart-link.png" alt="check" width="100.06px" height="22.53px"
+                                            id="p7">
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="union-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="./1200px-UnionPay_logo.svg.png" alt="check" width="70.06px"
+                                            height="22.53px">
+
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="vnpay-tab" data-toggle="tab" href="#vnpay" role="tab"
+                                        aria-controls="vnpay" aria-selected="false">
+                                        <img src="./icon-vnpay-20180102175151.jpg" alt="check" width="70.06px"
+                                            height="22.53px" id="p8">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="background p10">
+                                        <div class="container">
+                                            <img src="./the-0.jpg" alt="check" width="170.06px" height="auto" id="p11">
+                                            <br>
+                                            <br>
+                                            <hr>
+                                            <img src="./1024px-Emblem-important-yellow.svg.png" alt="check"
+                                                width="25.06px" height="auto" id="p12">
+                                            <p id="p13"><span style="color:#DBA510">Lưu ý</span> *Trường bắt buộc
+                                                nhập
+                                                thông
+                                                tin</p>
+
+                                            <div class="form-row">
+                                                <div class="form-group col-4">
+
+                                                    <input type="email" class="form-control form-Control-md"
+                                                        id="inputEmail4" placeholder="Số thẻ *">
+                                                </div>
+                                                <div class="form-group col-4">
+
+                                                    <input type="text" class="form-control" id="inputPassword4"
+                                                        placeholder="Tên trên thẻ *">
+                                                </div>
+                                                <div class="form-group col-3">
+
+                                                    <input type="text" class="form-control" id="inputdate"
+                                                        placeholder="Ngày Cấp">
+                                                </div>
+                                                <div class="form-group col-1">
+
+                                                    <input type="text" class="form-control" id="inputCVC"
+                                                        placeholder="CVC*">
+                                                </div>
+                                            </div>
+                                            <!-- <div class="form-group"> -->
+                                            <div class="form-row">
+                                                <div class="form-group col-md-4">
+
+                                                    <!-- <select type="search" class="form-control" id="inputCountry"
+                                                        placeholder="Quốc gia*">
+                                                        <option>VietNam</option>
+                                                        <option>Nhật Bản</option>
+                                                        <option>Hàn Quốc</option>
+                                                        <option>Trung Quốc</option>
+                                                    </select> -->
+                                                    <!-- <select name="country" class="custom-select"> -->
+                                                    <select type="search" class="form-control" id="inputCountry"
+                                                        placeholder="Quốc gia*">
+                                                        <option value=""><span
+                                                                class="flag-icon flag-icon-gr"></span>Quốc Gia *
+                                                        </option>
+                                                        <option value="Afghanistan">Afghanistan</option>
+                                                        <option value="Albania">Albania</option>
+                                                        <option value="Algeria">Algeria</option>
+                                                        <option value="American Samoa">American Samoa</option>
+                                                        <option value="Andorra">Andorra</option>
+                                                        <option value="Angola">Angola</option>
+                                                        <option value="Anguilla">Anguilla</option>
+                                                        <option value="Antartica">Antarctica</option>
+                                                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                                                        <option value="Argentina">Argentina</option>
+                                                        <option value="Armenia">Armenia</option>
+                                                        <option value="Aruba">Aruba</option>
+                                                        <option value="Australia">Australia</option>
+                                                        <option value="Austria">Austria</option>
+                                                        <option value="Azerbaijan">Azerbaijan</option>
+                                                        <option value="Bahamas">Bahamas</option>
+                                                        <option value="Bahrain">Bahrain</option>
+                                                        <option value="Bangladesh">Bangladesh</option>
+                                                        <option value="Barbados">Barbados</option>
+                                                        <option value="Belarus">Belarus</option>
+                                                        <option value="Belgium">Belgium</option>
+                                                        <option value="Belize">Belize</option>
+                                                        <option value="Benin">Benin</option>
+                                                        <option value="Bermuda">Bermuda</option>
+                                                        <option value="Bhutan">Bhutan</option>
+                                                        <option value="Bolivia">Bolivia</option>
+                                                        <option value="Bosnia and Herzegowina">Bosnia and Herzegowina
+                                                        </option>
+                                                        <option value="Botswana">Botswana</option>
+                                                        <option value="Bouvet Island">Bouvet Island</option>
+                                                        <option value="Brazil">Brazil</option>
+                                                        <option value="British Indian Ocean Territory">British Indian
+                                                            Ocean Territory</option>
+                                                        <option value="Brunei Darussalam">Brunei Darussalam</option>
+                                                        <option value="Bulgaria">Bulgaria</option>
+                                                        <option value="Burkina Faso">Burkina Faso</option>
+                                                        <option value="Burundi">Burundi</option>
+                                                        <option value="Cambodia">Cambodia</option>
+                                                        <option value="Cameroon">Cameroon</option>
+                                                        <option value="Canada">Canada</option>
+                                                        <option value="Cape Verde">Cape Verde</option>
+                                                        <option value="Cayman Islands">Cayman Islands</option>
+                                                        <option value="Central African Republic">Central African
+                                                            Republic</option>
+                                                        <option value="Chad">Chad</option>
+                                                        <option value="Chile">Chile</option>
+                                                        <option value="China">China</option>
+                                                        <option value="Christmas Island">Christmas Island</option>
+                                                        <option value="Cocos Islands">Cocos (Keeling) Islands</option>
+                                                        <option value="Colombia">Colombia</option>
+                                                        <option value="Comoros">Comoros</option>
+                                                        <option value="Congo">Congo</option>
+                                                        <option value="Congo">Congo, the Democratic Republic of the
+                                                        </option>
+                                                        <option value="Cook Islands">Cook Islands</option>
+                                                        <option value="Costa Rica">Costa Rica</option>
+                                                        <option value="Cota D'Ivoire">Cote d'Ivoire</option>
+                                                        <option value="Croatia">Croatia (Hrvatska)</option>
+                                                        <option value="Cuba">Cuba</option>
+                                                        <option value="Cyprus">Cyprus</option>
+                                                        <option value="Czech Republic">Czech Republic</option>
+                                                        <option value="Denmark">Denmark</option>
+                                                        <option value="Djibouti">Djibouti</option>
+                                                        <option value="Dominica">Dominica</option>
+                                                        <option value="Dominican Republic">Dominican Republic</option>
+                                                        <option value="East Timor">East Timor</option>
+                                                        <option value="Ecuador">Ecuador</option>
+                                                        <option value="Egypt">Egypt</option>
+                                                        <option value="El Salvador">El Salvador</option>
+                                                        <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                                        <option value="Eritrea">Eritrea</option>
+                                                        <option value="Estonia">Estonia</option>
+                                                        <option value="Ethiopia">Ethiopia</option>
+                                                        <option value="Falkland Islands">Falkland Islands (Malvinas)
+                                                        </option>
+                                                        <option value="Faroe Islands">Faroe Islands</option>
+                                                        <option value="Fiji">Fiji</option>
+                                                        <option value="Finland">Finland</option>
+                                                        <option value="France">France</option>
+                                                        <option value="France Metropolitan">France, Metropolitan
+                                                        </option>
+                                                        <option value="French Guiana">French Guiana</option>
+                                                        <option value="French Polynesia">French Polynesia</option>
+                                                        <option value="French Southern Territories">French Southern
+                                                            Territories</option>
+                                                        <option value="Gabon">Gabon</option>
+                                                        <option value="Gambia">Gambia</option>
+                                                        <option value="Georgia">Georgia</option>
+                                                        <option value="Germany">Germany</option>
+                                                        <option value="Ghana">Ghana</option>
+                                                        <option value="Gibraltar">Gibraltar</option>
+                                                        <option value="Greece">Greece</option>
+                                                        <option value="Greenland">Greenland</option>
+                                                        <option value="Grenada">Grenada</option>
+                                                        <option value="Guadeloupe">Guadeloupe</option>
+                                                        <option value="Guam">Guam</option>
+                                                        <option value="Guatemala">Guatemala</option>
+                                                        <option value="Guinea">Guinea</option>
+                                                        <option value="Guinea-Bissau">Guinea-Bissau</option>
+                                                        <option value="Guyana">Guyana</option>
+                                                        <option value="Haiti">Haiti</option>
+                                                        <option value="Heard and McDonald Islands">Heard and Mc Donald
+                                                            Islands</option>
+                                                        <option value="Holy See">Holy See (Vatican City State)</option>
+                                                        <option value="Honduras">Honduras</option>
+                                                        <option value="Hong Kong">Hong Kong</option>
+                                                        <option value="Hungary">Hungary</option>
+                                                        <option value="Iceland">Iceland</option>
+                                                        <option value="India">India</option>
+                                                        <option value="Indonesia">Indonesia</option>
+                                                        <option value="Iran">Iran (Islamic Republic of)</option>
+                                                        <option value="Iraq">Iraq</option>
+                                                        <option value="Ireland">Ireland</option>
+                                                        <option value="Israel">Israel</option>
+                                                        <option value="Italy">Italy</option>
+                                                        <option value="Jamaica">Jamaica</option>
+                                                        <option value="Japan">Japan</option>
+                                                        <option value="Jordan">Jordan</option>
+                                                        <option value="Kazakhstan">Kazakhstan</option>
+                                                        <option value="Kenya">Kenya</option>
+                                                        <option value="Kiribati">Kiribati</option>
+                                                        <option value="Korea">Korea, Republic of</option>
+                                                        <option value="Kuwait">Kuwait</option>
+                                                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                                        <option value="Lao">Lao People's Democratic Republic</option>
+                                                        <option value="Latvia">Latvia</option>
+                                                        <option value="Lebanon">Lebanon</option>
+                                                        <option value="Lesotho">Lesotho</option>
+                                                        <option value="Liberia">Liberia</option>
+                                                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya
+                                                        </option>
+                                                        <option value="Liechtenstein">Liechtenstein</option>
+                                                        <option value="Lithuania">Lithuania</option>
+                                                        <option value="Luxembourg">Luxembourg</option>
+                                                        <option value="Macau">Macau</option>
+                                                        <option value="Macedonia">Macedonia, The Former Yugoslav
+                                                            Republic of</option>
+                                                        <option value="Madagascar">Madagascar</option>
+                                                        <option value="Malawi">Malawi</option>
+                                                        <option value="Malaysia">Malaysia</option>
+                                                        <option value="Maldives">Maldives</option>
+                                                        <option value="Mali">Mali</option>
+                                                        <option value="Malta">Malta</option>
+                                                        <option value="Marshall Islands">Marshall Islands</option>
+                                                        <option value="Martinique">Martinique</option>
+                                                        <option value="Mauritania">Mauritania</option>
+                                                        <option value="Mauritius">Mauritius</option>
+                                                        <option value="Mayotte">Mayotte</option>
+                                                        <option value="Mexico">Mexico</option>
+                                                        <option value="Micronesia">Micronesia, Federated States of
+                                                        </option>
+                                                        <option value="Moldova">Moldova, Republic of</option>
+                                                        <option value="Monaco">Monaco</option>
+                                                        <option value="Mongolia">Mongolia</option>
+                                                        <option value="Montserrat">Montserrat</option>
+                                                        <option value="Morocco">Morocco</option>
+                                                        <option value="Mozambique">Mozambique</option>
+                                                        <option value="Myanmar">Myanmar</option>
+                                                        <option value="Namibia">Namibia</option>
+                                                        <option value="Nauru">Nauru</option>
+                                                        <option value="Nepal">Nepal</option>
+                                                        <option value="Netherlands">Netherlands</option>
+                                                        <option value="Netherlands Antilles">Netherlands Antilles
+                                                        </option>
+                                                        <option value="New Caledonia">New Caledonia</option>
+                                                        <option value="New Zealand">New Zealand</option>
+                                                        <option value="Nicaragua">Nicaragua</option>
+                                                        <option value="Niger">Niger</option>
+                                                        <option value="Nigeria">Nigeria</option>
+                                                        <option value="Niue">Niue</option>
+                                                        <option value="Norfolk Island">Norfolk Island</option>
+                                                        <option value="North Korea">North Korea</option>
+                                                        <option value="Northern Mariana Islands">Northern Mariana
+                                                            Islands</option>
+                                                        <option value="Norway">Norway</option>
+                                                        <option value="Oman">Oman</option>
+                                                        <option value="Pakistan">Pakistan</option>
+                                                        <option value="Palau">Palau</option>
+                                                        <option value="Panama">Panama</option>
+                                                        <option value="Papua New Guinea">Papua New Guinea</option>
+                                                        <option value="Paraguay">Paraguay</option>
+                                                        <option value="Peru">Peru</option>
+                                                        <option value="Philippines">Philippines</option>
+                                                        <option value="Pitcairn">Pitcairn</option>
+                                                        <option value="Poland">Poland</option>
+                                                        <option value="Portugal">Portugal</option>
+                                                        <option value="Puerto Rico">Puerto Rico</option>
+                                                        <option value="Qatar">Qatar</option>
+                                                        <option value="Reunion">Reunion</option>
+                                                        <option value="Romania">Romania</option>
+                                                        <option value="Russia">Russian Federation</option>
+                                                        <option value="Rwanda">Rwanda</option>
+                                                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis
+                                                        </option>
+                                                        <option value="Saint LUCIA">Saint LUCIA</option>
+                                                        <option value="Saint Vincent">Saint Vincent and the Grenadines
+                                                        </option>
+                                                        <option value="Samoa">Samoa</option>
+                                                        <option value="San Marino">San Marino</option>
+                                                        <option value="Sao Tome and Principe">Sao Tome and Principe
+                                                        </option>
+                                                        <option value="Saudi Arabia">Saudi Arabia</option>
+                                                        <option value="Senegal">Senegal</option>
+                                                        <option value="Seychelles">Seychelles</option>
+                                                        <option value="Sierra">Sierra Leone</option>
+                                                        <option value="Singapore">Singapore</option>
+                                                        <option value="Slovakia">Slovakia (Slovak Republic)</option>
+                                                        <option value="Slovenia">Slovenia</option>
+                                                        <option value="Solomon Islands">Solomon Islands</option>
+                                                        <option value="Somalia">Somalia</option>
+                                                        <option value="South Africa">South Africa</option>
+                                                        <option value="South Georgia">South Georgia and the South
+                                                            Sandwich Islands</option>
+                                                        <option value="South Korea">South Korea</option>
+                                                        <option value="South Sudan">South Sudan</option>
+                                                        <option value="Span">Spain</option>
+                                                        <option value="SriLanka">Sri Lanka</option>
+                                                        <option value="St. Helena">St. Helena</option>
+                                                        <option value="St. Pierre and Miguelon">St. Pierre and Miquelon
+                                                        </option>
+                                                        <option value="Sudan">Sudan</option>
+                                                        <option value="Suriname">Suriname</option>
+                                                        <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
+                                                        <option value="Swaziland">Swaziland</option>
+                                                        <option value="Sweden">Sweden</option>
+                                                        <option value="Switzerland">Switzerland</option>
+                                                        <option value="Syria">Syrian Arab Republic</option>
+                                                        <option value="Taiwan">Taiwan, Province of China</option>
+                                                        <option value="Tajikistan">Tajikistan</option>
+                                                        <option value="Tanzania">Tanzania, United Republic of</option>
+                                                        <option value="Thailand">Thailand</option>
+                                                        <option value="Togo">Togo</option>
+                                                        <option value="Tokelau">Tokelau</option>
+                                                        <option value="Tonga">Tonga</option>
+                                                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                                        <option value="Tunisia">Tunisia</option>
+                                                        <option value="Turkey">Turkey</option>
+                                                        <option value="Turkmenistan">Turkmenistan</option>
+                                                        <option value="Turks and Caicos">Turks and Caicos Islands
+                                                        </option>
+                                                        <option value="Tuvalu">Tuvalu</option>
+                                                        <option value="Uganda">Uganda</option>
+                                                        <option value="Ukraine">Ukraine</option>
+                                                        <option value="United Arab Emirates">United Arab Emirates
+                                                        </option>
+                                                        <option value="United Kingdom">United Kingdom</option>
+                                                        <option value="United States">United States</option>
+                                                        <option value="United States Minor Outlying Islands">United
+                                                            States Minor Outlying Islands</option>
+                                                        <option value="Uruguay">Uruguay</option>
+                                                        <option value="Uzbekistan">Uzbekistan</option>
+                                                        <option value="Vanuatu">Vanuatu</option>
+                                                        <option value="Venezuela">Venezuela</option>
+                                                        <option value="Vietnam">Viet Nam</option>
+                                                        <option value="Virgin Islands (British)">Virgin Islands
+                                                            (British)</option>
+                                                        <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)
+                                                        </option>
+                                                        <option value="Wallis and Futana Islands">Wallis and Futuna
+                                                            Islands</option>
+                                                        <option value="Western Sahara">Western Sahara</option>
+                                                        <option value="Yemen">Yemen</option>
+                                                        <option value="Yugoslavia">Yugoslavia</option>
+                                                        <option value="Zambia">Zambia</option>
+                                                        <option value="Zimbabwe">Zimbabwe</option>
+                                                    </select>
+
+
+                                                </div>
+                                                <!-- <input type="text" class="form-control" id="inputCountry"
+                                                    placeholder="CVC*"> -->
+
+                                            </div>
+                                            <!-- </div> -->
+                                            <!-- <br><br><br><br><br> -->
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                                    <div class="background p10">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-4 ">
+                                                    <br>
+                                                    <h6>THANH TOÁN NỘI ĐỊA TẠI VIỆT NAM-THANH TOÁN NGAY HOẶC THANH
+                                                        TOÁN
+                                                        SAU
+                                                    </h6>
+                                                    <p></p>
+                                                    <ul class="nav justify-content-start">
+                                                        <li class="nav-item">
+                                                            <button type="button" class="btn btn-primary"
+                                                                style="color: white">Thanh toán ngay</button>
+                                                        </li>
+                                                        <br><br>
+                                                        <li class="nav-item">
+
+                                                            <button type="button" class="btn btn-warning"
+                                                                style="background: white; color: black;border: solid 1px #168FB0">Thanh
+                                                                toán sau</button>
+                                                        </li>
+
+                                                    </ul>
+
+                                                </div>
+                                                <div class="col-8">
+                                                    <br>
+                                                    <div class="container p21">
+                                                        <br>
+                                                        <h4>Chúng tôi chấp nhận thanh toán ngay bằng các hình thức:
+                                                        </h4>
+                                                        <p>
+                                                            -Thẻ nội địa (thẻ ATM) của 34 ngân hàng Việt Nam. Quý
+                                                            khách
+                                                            vui lòng nhập các thông tin thẻ ở trang tiếp theo. Khi
+                                                            lựa
+                                                            chọn hình thức thanh toán này, Quý khách phải đăng ký
+                                                            dich
+                                                            vụ ngân hàng trực tuyến.
+                                                        </p>
+                                                        <p>
+                                                            -Thanh toán QR tại ứng dụng của MoMo. Quét mã để thanh
+                                                            toán
+                                                        </p>
+                                                    </div>
+                                                    <br>
+                                                    <h5>Tổng số tiền phải trả: <b>34,545,000 VND</b></h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <div class="background p23">
+                                        <div class="container">
+                                            <br>
+                                            <img src="./1200px-UnionPay_logo.svg.png" alt="check" width="80.06px"
+                                                height="auto">
+                                            <br>
+                                            <br>
+                                            <div class="p24">
+
+                                                <p>Quý khách sẽ được chuyển hướng đế trang web của Unionpay để tiến
+                                                    hành thanh toán</p>
+
+                                            </div>
+                                            <br>
+                                            <h5>Tổng số tiền phải trả: <b>34,528,000 VND</b></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="vnpay" role="tabpanel" aria-labelledby="contact-tab">
+                                    <div class="background p25">
+                                        <div class="container">
+                                            <br>
+                                            <img src="./icon-vnpay-20180102175151.jpg" alt="check" width="80.06px"
+                                                height="auto">
+                                            <br>
+                                            <br>
+                                            <div class="p24">
+                                                <p>
+                                                    Quý khách sẽ được chuyển sang trang của VNPAY để thanh toán.
+                                                    VNPAY là cổng thanh toán nội địa của Vietnam Airlines. Các hình
+                                                    thức thanh toán qua cổng thanh toán VNPAY bao gồm:
+                                                </p>
+                                                <p>
+                                                    - Sử dụng tính năng QR PAY trên Mobile Banking App của Ngân
+                                                    hàng, quét mã QR để thanh toán.
+                                                </p>
+                                                <p>
+                                                    - Thanh toán bằng Internet Banking và tài khoản ngân hàng
+                                                </p>
+                                            </div>
+                                            <br>
+                                            <h5>Tổng số tiền phải trả: <b>34,528,000 VND</b></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="background p13">
+
+                                <div class="text">
+                                    <h4 style="color:#168FB0">Điều kiện thay đổi/Hoàn vé</h4>
+                                    <p id="small">Quý khách vui lòng xem các thông tin dưới đây</p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="background p14 scrollbar" id="overflow-element">
+                                <div class="container">
+                                    <div class="">
+                                        <h4>Điều kiện thay đổi vé</h4>
+
+                                        <p> 1.Giá vé phổ thông siêu tiết kiệm:</p>
+
+                                        <span> Hành trình nội địa Việt Nam: không được phép</span>
+                                        <p> Các hành trình khác: được phép, mất phí</p>
+                                        <p>2.Giá vé phổ thông tiết kiệm:</p>
+
+                                        <p> Hành trình nội địa Việt Nam:</p>
+                                        <span>
+                                            Trước ngày khởi hành chặng bay ghi trên vé: không được phép
+                                        </span>
+                                        <p> Các loại vé khác: được phép, mất phí</p>
+
+                                        <h4>Điều kiện hoàn vé</h4>
+
+                                        <p>1.Giá vé phổ thông siêu tiết kiệm</p>
+                                        <span> Hành trình nội địa Việt Nam: không được phép</span>
+                                        <p>Các hành trình khác: được phép, mất phí hoặc miễn phí tùy theo điều kiện
+                                            từng
+                                            loại vé</p>
+                                        <p>2. Các loại giá vé khác: được phép, mất phí hoặc miễn phí tùy theo điều
+                                            kiện
+                                            của
+                                            từng loại giá vé</p>
+                                        <p>Nếu Quý khách lựa chọn các loại giá vé khác nhau, điều kiện giá vé chặt
+                                            nhất
+                                            sẽ
+                                            được áp dụng cho toàn bộ hành trình.</p>
+                                        <p>3.Phí hành lý trả trước và chọn chỗ ngồi ưa thích không được hoàn trả</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="background p15">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Tôi đã đọc và đồng ý với
+                                        điều
+                                        kiện,<span style="color: #168FB0">chính sách bảo mật, Điều lệ vận chuyển,
+                                            Điều
+                                            kiện
+                                            đặt vé trực tuyến</span></label>
+                                </div>
+                            </div>
+                            <!-- <button type="button" class="btn btn-warning">Tiếp tục</button>   -->
+                            <div class="background p16">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <button type="button" class="btn btn-primary"><img src="./left-arrow.png"
+                                                alt="ar" height="20" width="30"></button>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button type="button" class="btn btn-warning">Tiếp tục</button>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                </div>
+
+
+
+                <div class="grid-body">
+
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 order-xl-12 order-lg-1  ">
+                    <div class="card bg-white" id="card-price-detail">
+                        <div id="wrrap-right" class="container">
+                            <h4 id="hihi">Chi tiết giá</h4>
+                        </div>
+                        <button class="button-right button-right-click1" aria-expanded="false" data-toggle="collapse"
+                            data-target="#collapseOne" aria-controls="collapseOne">
+                            <div class="container" id="but-select">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element">
+                                            <img src="image/airplane-shape.png" alt="airpland" height="20">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5> HAN</h5>
+                                        </span>
+                                        <span class="wrap-element">
+                                            <img src="image/double-arrow.png" alt="double-arrow" height="20">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5>CDG</h5>
+                                        </span>
+                                    </div>
+                                    <div class="content-price">
+                                        <span>
+                                            56,471,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon" id="dowicon">
+                                        <img src="image/up-arrow.png" id="arrow1" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
+                            <div class="title-detail">
+                                <p><span class="span-head-title">Khởi hành </span>11:45 pm, on 04 August 2019</p>
+                            </div>
+                            <div class="container">
+                                <b>Hà Nội, Việt Nam(HAN)</b>
+                                <span>
+                                    <img src="image/black-plane.png" alt="black-plane" height="20">
+                                </span>
+                                <b>Paris(CDG)</b>
+                                <p>Thời gian: 12 tiếng 15 phút/ Bay thẳng</p>
+
+                                <div class="logo-VNair">
+                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
+                                    <span>
+                                        <p>VN 19 ● Airbus A350</p>
+                                    </span>
+                                </div>
+                                <p>Hãng khai thác Vietnam Airlines</p>
+
+                            </div>
+                            <div class="title-detail">
+                                <p><span class="span-head-title">Trở về </span>2:00 pm, on 10 September 2019</p>
+                            </div>
+                            <div class="container">
+                                <b>Paris(CDG)</b>
+                                <span>
+                                    <img src="image/black-plane.png" alt="black-plane" height="20">
+                                </span>
+                                <b>Hà Nội , Việt Nam(HAN)</b>
+                                <p>Thời gian: 11 tiếng 25 phút/ Bay thẳng</p>
+                                <div class="logo-VNair">
+                                    <img src="image/logo-vietnam-airlines.png" alt="logo-vietnam-airlines" height="19">
+                                    <p>VN 18 ● Airbus A350</p>
+                                    <p>Hãng khai thác Vietnam Airlines</p>
+                                </div>
+
+                            </div>
+                            <div class="foorder-right">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="mr-auto">
+                                            <span class="span-head-title">Người lớn x1</span>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <span>‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍56,741,000
+                                                VND</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button-right button-right-click3" aria-expanded="false" data-toggle="collapse"
+                            data-target="#collapseThree" aria-controls="collapseOne">
+                            <div class="container" id="but-select1">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element">
+                                            <img src="./dịch vụ bổ trợ.png" alt="airpland" height="20">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5>Dịch vụ bổ trợ</h5>
+                                        </span>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <span>
+                                            100,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon" id="dowicon1">
+                                        <img src="image/up-arrow.png" id="arrow3" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseThree" class="collapse show" aria-labelledby="headingOne">
+
+                            <br>
+
+                            <div class="tick">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <img src="./been-here-marker.png" alt="tick" height="30">
+                                        Bảo hiểm du lịch
+                                    </div>
+                                    <div class="col-5">
+                                        100,000 VND
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br>
+                            <div class="male" style="margin-left: 15px; margin-bottom: 10px;">
+                                <img src="./male.png" alt="male" height="25">(1)
+                            </div>
+                        </div>
+
+                        <button class="button-right button-right-click4" aria-expanded="false" data-toggle="collapse"
+                            data-target="#collapseFour" aria-controls="collapseOne">
+                            <div class="container" id="but-select2">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element">
+                                            <img src="./chỗ ngồi.png" alt="airpland" height="30">
+                                        </span>
+                                        <span class="wrap-element">
+                                            <h5>Chỗ ngồi</h5>
+                                        </span>
+
+                                    </div>
+                                    <div class="content-price">
+                                        <span>
+                                            100,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon" id="dowicon2">
+                                        <img src="image/up-arrow.png" id="arrow4" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseFour" class="collapse show" aria-labelledby="headingOne">
+                            <div class="title-detail">
+                                <p>Chuyến bay: HAN - CDG</p>
+                            </div>
+                            <div>
+                                <span class="icon123">A1</span>
+                                <span>--</span>
+
+                            </div>
+                            <div class="title-detail">
+                                <p>Chuyến bay: CDG - HAN</p>
+                            </div>
+                            <div>
+                                <span class="icon123">A1</span>
+                                <span>--</span>
+
+                            </div>
+
+
+                        </div>
+
+                        <button id="button-right-click2" class="button-right" aria-expanded="false"
+                            data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
+                            <div class="container" id="but-selection1">
+                                <div class="wrap">
+
+                                    <div class="right-content">
+                                        <span class="wrap-element"><img src="image/credit-card.png" alt="credit-card"
+                                                height="25"></span>
+                                        <div class="wrap-element">
+                                            <h5>Thuế phí và các khoản thu</h5>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="content-price">
+                                        <span>
+                                            7,000,000 VND
+                                        </span>
+                                    </div>
+                                    <div class="dow-icon">
+                                        <img src="image/down-arrow.png" id="arrow2" alt="up-arrow" width="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingOne">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-7">
+                                        <span class="">Phí soi chiếu an ninh hành khách
+                                            và hành lý, Việt Nam</span>
+                                    </div>
+                                    <div class="col-5">
+                                        515,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Thuế tổng hợp cho hành khách hàng
+                                            không, Pháp</span>
+                                    </div>
+                                    <div class="col-5">
+
+                                        117,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
+                                            Việt Nam</span>
+                                    </div>
+                                    <div class="col-5">
+
+                                        583,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí dịch vụ hành khách chặng quốc tế,
+                                            Pháp</span>
+                                    </div>
+                                    <div class="col-5">
+                                        741,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phí nhiên liệu hàng không
+                                        </span>
+                                    </div>
+                                    <div class="col-5">
+                                        4,986,000 VND
+                                    </div>
+                                    <div class="col-7">
+                                        <span class="">Phụ thu quản trị hệ thống</span>
+                                    </div>
+                                    <div class="col-5">
+                                        164,000 VND
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container">
+                            <h6>Tổng giá chuyến đi</h6>
+                            <h5>63,471,000 VND</h5>
+                            <a href="#">
+                                Xem Quy định về giá vé và Thông tin hành lý hiện
+                                áp dụng
+                            </a>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xl-3 col-lg-12"><a href="#" class="link-footer">© 2017 VTC Airlines JSC</a></div>
+                <div class="col-xl-2 col-lg-4"><a href="#" class="link-footer">Thông tin hành lý</a></div>
+                <div class="col-xl-2 col-lg-4"><a href="#" class="link-footer">Điều Khoản Sử Dụng</a></div>
+                <div class="col-xl-2 col-lg-4"><a href="#" class="link-footer">Câu hỏi thường gặp</a></div>
+                <div class="col-xl-2 col-lg-12"><a href="#" class="link-footer">Liên hệ với chúng tôi</a></div>
+                <div class="icon-footer col-12">
+                    <ul class="ul-footer">
+                        <li class="li-footer"><i class="fa fa-facebook-f"></i></li>
+                        <li class="li-footer"><i class="fa fa-youtube"></i></li>
+                        <li class="li-footer"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".button-right-click1").bind("click", function () {
+            $(this).toggleClass("changebackground1");
+            $("#arrow1").toggleClass("rotate");
+            console.log("noob");
+        });
+        $("#button-right-click2").bind("click", function () {
+            $(this).toggleClass("changebackground2");
+            $("#arrow2").toggleClass("rotate");
+            console.log("noob");
+        });
+        $(".button-right-click3").bind("click", function () {
+            $(this).toggleClass("changebackground1");
+            $("#arrow3").toggleClass("rotate");
+            console.log("noob");
+        });
+        $(".button-right-click4").bind("click", function () {
+            $(this).toggleClass("changebackground1");
+            $("#arrow4").toggleClass("rotate");
+            console.log("noob");
+        });
+
+    });
+    function ChangecatList() {
+        var catList = document.getElementById("validationCustom03");
+        var actList = document.getElementById("validationCustom04");
+        var selCat = catList.options[catList.selectedIndex].value;
+        while (actList.options.length) {
+            actList.remove(0);
+        }
+        var cats = catAndActs[selCat];
+        if (cats) {
+            var i;
+            for (i = 0; i < cats.length; i++) {
+                var cat = new Option(cats[i], i);
+                actList.options.add(cat);
+            }
+        }
+    } 
+</script>
+
+</html>
